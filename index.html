@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Todo List - 大海无量</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="app">
+        <h1>Todo List</h1>
+
+        <div class="input-row">
+            <input
+                id="todo-input"
+                type="text"
+                placeholder="今天要做什么？比如：学习前端 30 分钟"
+            />
+            <button id="add-btn">Add</button>
+        </div>
+
+        <ul id="todo-list">
+            <!-- 任务列表会通过 JS 动态插入 -->
+        </ul>
+
+        <div class="footer">
+            <span id="stats">0 tasks · 0 completed</span>
+            <button id="clear-completed">Clear Completed</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
